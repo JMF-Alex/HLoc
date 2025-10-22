@@ -52,7 +52,6 @@ public class NavbarPane extends HBox {
         Region spacer = new Region();
         HBox.setHgrow(spacer, Priority.ALWAYS);
 
-        // Botones del navbar integrando el estilo directamente
         loginButton = createNavButton("Iniciar sesión", "#3CB371");
         registerButton = createNavButton("Registrarse", "#2E8B57");
         logoutButton = createNavButton("Cerrar sesión", "#B22222");
