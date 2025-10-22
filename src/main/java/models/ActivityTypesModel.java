@@ -21,7 +21,4 @@ public class ActivityTypesModel {
     public int getId() { return id.get(); }
     public String getName() { return name.get(); }
     public String getDescription() { return description.get(); }
-
-    public void setName(String name) { this.name.set(name); }
-    public void setDescription(String description) { this.description.set(description); }
 }
