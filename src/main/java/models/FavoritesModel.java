@@ -24,7 +24,6 @@ public class FavoritesModel {
     public int getId() { return id.get(); }
     public int getUserId() { return userId.get(); }
     public int getRouteId() { return routeId.get(); }
-    public LocalDateTime getAddedAt() { return addedAt.get(); }
 
     public void setUserId(int userId) { this.userId.set(userId); }
     public void setRouteId(int routeId) { this.routeId.set(routeId); }
