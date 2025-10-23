@@ -24,93 +24,79 @@
 5. [Roadmap](#roadmap)  
 6. [Contributing](#contributing)  
 7. [License](#license)  
-8. [Contact](#contact)  
-9. [Acknowledgments](#acknowledgments)
+8. [Acknowledgments](#acknowledgments)
 
-## About The Project  
-**HLoc** es un proyecto en Java que busca replicar o trabajar de forma similar a la plataforma **Wikiloc** para geolocalización, rutas y tracking de actividades al aire libre.  
-La idea es permitir que el usuario registre, visualice y gestione rutas, posiblemente con soporte de mapas, geolocalización.
+## About the Project  
+**HLoc** is a Java project that aims to replicate or work similarly to the **Wikiloc** platform for geolocation, routes, and outdoor activity tracking.  
+The idea is to allow users to record, view, and manage routes, possibly with map and geolocation support.
 
 ### Features  
-- Gestión de rutas (crear, ver, editar)  
-- Interfaz (o base de código) en Java  
-- Modularidad para expansión futura  
+- Route management (create, view, edit)  
+- Interface (or codebase) in Java  
+- Modular design for future expansion  
 
-## Built With  
-Este proyecto se construyó con las siguientes tecnologías principales:  
-- Java (versión definida en `pom.xml`)  
-- Maven como sistema de construcción  
-- [Opcional] Librerías externas de geolocalización/mapas si se implementan más adelante  
-- Estructura de directorios estándar: `src/main/java`, `pom.xml`, etc. ([github.com](https://github.com/JMF-Alex/HLoc))
+## Built With  
+This project was built using the following main technologies:  
+- Java (version defined in `pom.xml`)  
+- Maven as the build system  
+- [Optional] External libraries for geolocation/maps if implemented later  
+- Standard directory structure: `src/main/java`, `pom.xml`, etc. ([github.com](https://github.com/JMF-Alex/HLoc))
 
-## Getting Started  
+## Getting Started  
 
 ### Prerequisites  
-- Java JDK instalado (por ejemplo JDK 11 o superior)  
-- Maven instalado (o usar `mvnw` que ya está incluido)  
-- Git para clonar el repositorio
+- Java JDK installed (21+)  
+- Maven installed (or use the included `mvnw`)  
+- Git to clone the repository
 
 ### Installation  
-1. Clona el repositorio:  
-`bash
+1. Clone the repository:  
+```bash
 git clone https://github.com/JMF-Alex/HLoc.git
-`  
-2. Entra al directorio del proyecto:  
+```  
+2. Enter the project directory:  
 ```bash
 cd HLoc
-   `  
-3. (Opcional) Usa el wrapper de Maven:  
-   `bash
+```  
+3. (Opcional) Use the Maven wrapper:  
+```bash
 ./mvnw clean install
-   `  
-   o si usas Maven instalado globalmente:  
-   `bash
+```  
+   or if you use globally installed Maven:  
+```bash
 mvn clean install
-   `  
-4. Una vez compilado, puedes ejecutar la aplicación desde tu IDE o línea de comandos (dependerá del main class que definas).
+```  
+4. Once compiled, you can run the application from your IDE or command line.
 
 ## Usage  
-Explica cómo usar esta aplicación. Por ejemplo:  
+You can run the application with:  
 ```bash
-java -jar target/HLoc‑1.0.jar
+java -jar target/HLoc‑1.0.0.jar
 ```  
-Desde la interfaz puedes:  
-- Crear una nueva ruta proporcionando puntos GPS  
-- Visualizar rutas guardadas  
-- Exportar rutas a un formato estándar (por ejemplo GPX)  
-- Importar rutas previamente guardadas  
-- Editar o eliminar rutas existentes  
-
-### Screenshots (opcional)  
-Si implementas interfaz gráfica o consola con resultados visuales, añade capturas como:  
-![Screenshot](link-a-imagen)  
+From the interface you can:  
+- View saved routes  
+- Import previously saved routes  
+- Edit or delete existing routes  
 
 ## Roadmap  
-- [ ] Implementar interfaz gráfica (GUI)  
-- [ ] Añadir soporte para exportación a formatos GPX/KML  
-- [ ] Integrar API de mapas (por ejemplo OpenStreetMap)  
-- [ ] Añadir autenticación de usuario y almacenamiento remoto  
-- [ ] Crear versión móvil o híbrida para Android/iOS  
+- [ ] Implement graphical user interface (GUI)  
+- [ ] Add support for export to GPX/KML format  
+- [ ] Integrate map API (e.g. OpenStreetMap)  
+- [ ] Add user authentication and remote storage  
 
 ## Contributing  
-Las contribuciones son bienvenidas.   
-Por favor sigue estos pasos:  
-1. Haz fork del proyecto  
-2. Crea tu feature branch (`git checkout -b feature/MyFeature`)  
-3. Haz commit con mensaje descriptivo (`git commit -m "Add some feature"`)  
-4. Haz push a tu branch (`git push origin feature/MyFeature`)  
-5. Abre un Pull Request  
-Además, antes de desarrollar una nueva funcionalidad, abre un issue para que podamos discutirla.
+Contributions are welcome.  
+Please follow these steps:  
+1. Fork the project  
+2. Create your feature branch (`git checkout -b feature/MyFeature`)  
+3. Commit your changes with a descriptive message (`git commit -m "Add some feature"`)  
+4. Push to your branch (`git push origin feature/MyFeature`)  
+5. Open a Pull Request  
+Additionally, before developing a new feature, open an issue so we can discuss it.
 
 ## License  
-Distribuido bajo la licencia MIT. Consulta el archivo [`LICENSE`](LICENSE) para más detalles.
-
-## Contact  
-Tu nombre: JMF‑Alex  
-Repositorio del proyecto: [https://github.com/JMF-Alex/HLoc](https://github.com/JMF-Alex/HLoc)  
-Email: (tu‑email@ejemplo.com)  
+Distributed under the MIT License. See the [`LICENSE`](LICENSE) file for more details.
 
 ## Acknowledgments  
-- El template original de Othneil Drew: [Best‑README‑Template](https://github.com/othneildrew/Best-README-Template) ([github.com](https://github.com/othneildrew/Best-README-Template?utm_source=chatgpt.com))  
-- Librerías y recursos de código abierto que puedas usar  
-- Comunidad de desarrolladores de Java  
+- Original template by Othneil Drew: [Best‑README‑Template](https://github.com/othneildrew/Best-README-Template) ([github.com](https://github.com/othneildrew/Best-README-Template))
+ 
